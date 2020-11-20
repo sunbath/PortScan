@@ -130,6 +130,7 @@ def func_telnet_test_file(Destination_IP, Destination_Port):
 
     except socket.error:
         print("Couldn't connect to server")
+        
         sys.exit()
 
 def func_print_table_to_cli(input_table, input_table_header, format):
